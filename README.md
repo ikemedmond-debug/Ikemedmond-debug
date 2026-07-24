@@ -12,7 +12,7 @@ vulnerability exploitation, and secure application development.
 ## Projects
 
 ### Network & Digital Forensics
-- **[Event Analysis — PCAP Investigation](./event-analysis/)**
+- **[Event Analysis — PCAP Investigation](./Event%20Analysis%20project.docx)**
   Analyzed a network packet capture using Wireshark, NetworkMiner, and Snort to 
   investigate a suspected security event and determine whether malicious activity 
   had occurred.

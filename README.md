@@ -27,18 +27,24 @@ vulnerability exploitation, and secure application development.
   identification.
 
 ### Malware & Incident Analysis
-- **SimSpace Malware Analysis Lab**
-  Hands-on malware behavior analysis in a simulated enterprise environment.
+- **[Malware Analysis — Compromised FTP Server](./Malware%20Project.docx)**
+  Investigated a compromised Windows XP FTP server (win-xp-17) in the SimSpace 
+  environment using network reconnaissance, Nmap service enumeration, and FTP 
+  artifact analysis. Identified Netcat, RealVNC configured without authentication, 
+  and IRC-based command-and-control tooling, then traced the likely root cause to 
+  an unpatched Windows RPC vulnerability combined with anonymous FTP access.
 - **Cuckoo's Egg Case Study**
   Analytical paper examining a real-world intrusion using the NIST SP 800-61, 
   SANS, and MITRE ATT&CK frameworks.
 
 ### Web Application Security
+- **[Cross-Site Scripting (XSS) Lab](./Cross-Site%20scripting%20Project.docx)**
+  Exploited a stored XSS vulnerability in a deliberately vulnerable Elgg social 
+  networking installation, demonstrating session token theft via an attacker-
+  controlled listener, then validated the HTMLawed and htmlspecialchars() 
+  countermeasures that neutralized the attack.
 - **Web Tracking Lab**
   Investigated client-side and server-side web tracking mechanisms (SEED Labs).
-- **XSS Vulnerability Analysis**
-  Discussion of a real-world cross-site scripting vulnerability, CVE-2024-20759 
-  (Adobe Commerce).
 - **PHP Server-Side Form Validation**
   Implemented secure server-side input validation for a PHP web form.
 

@@ -16,7 +16,7 @@ vulnerability exploitation, and secure application development.
   Analyzed a network packet capture using Wireshark, NetworkMiner, and Snort to 
   investigate a suspected security event and determine whether malicious activity 
   had occurred.
-- **[Memory Forensics Analysis — Hunting in Memory](./memory-forensics/)**
+- **[Memory Forensics Analysis — Hunting in Memory](./Hunting%20in%20Memory.docx)**
   Investigated a Windows XP physical memory image (KobayashiMaru.vmem) using 
   Volatility 2.6 to uncover a multi-stage compromise. Identified a Hacker Defender 
   rootkit, a PoisonIvy remote access trojan with an active C2 connection, and an 
